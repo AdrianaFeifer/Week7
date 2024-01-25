@@ -8,7 +8,7 @@ const FilmsPage = () => {
     
     const fetchFilms = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/films');
+        const response = await fetch('https://week-7-server.onrender.com/api/films');
         const data = await response.json();
         setFilms(data);
       } catch (error) {

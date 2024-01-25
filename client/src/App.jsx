@@ -1,11 +1,11 @@
 // client/src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import FilmsPage from './pages/FilmsPage';
-import MusicPage from './pages/MusicPage';
-import GenrePage from './pages/GenrePage';
-import ForumPage from './pages/ForumPage';
+import HomePage from './pages/home';
+import FilmsPage from './pages/movies';
+import MusicPage from './pages/music';
+import GenrePage from './pages/genre';
+import ForumPage from './pages/forum';
 
 const App = () => {
   return (
