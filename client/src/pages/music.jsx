@@ -8,7 +8,7 @@ const MusicPage = () => {
    
     const fetchMusic = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/music');
+        const response = await fetch('https://week-7-server.onrender.com/api/music');
         const data = await response.json();
         setMusic(data);
       } catch (error) {

@@ -12,7 +12,7 @@ const CreatePost = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3001/api/user-forum-posts', {
+      const response = await fetch('https://week-7-server.onrender.com/api/user-forum-posts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -8,7 +8,7 @@ const GenrePage = () => {
     
     const fetchGenres = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/genres');
+        const response = await fetch('https://week-7-server.onrender.com/api/genres');
         const data = await response.json();
         setGenres(data);
       } catch (error) {
